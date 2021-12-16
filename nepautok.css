@@ -9,18 +9,24 @@
 .left {
 	float: left;
 	margin-bottom: 10px;
+	margin-right: 10px;
 }
 
 .right {
 	float: right;
 	margin-bottom: 10px;
+	margin-left: 10px;
 }
 p{
 	text-align: justify;
 }
-link{
+a{
 	color: darkgray;
 	background-color: lightgray;
+	text-decoration: none;
+	
+}
+a:hover{
 	color: chocolate;
 }
 .img-box{
